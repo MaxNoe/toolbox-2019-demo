@@ -11,4 +11,4 @@ plt.ylabel('U / V')
 plt.legend()
 
 plt.tight_layout()
-plt.savefig('test.pdf')
+plt.savefig('build/test.pdf')
