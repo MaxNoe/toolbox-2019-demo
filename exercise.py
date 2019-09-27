@@ -5,4 +5,6 @@ x = np.linspace(0, 1, 100)
 plt.plot(x, np.sin(x), 'b', label='sin')
 plt.plot(x, np.cos(x), 'r', label='cos')
 plt.legend()
+
+plt.tight_layout()
 plt.savefig('test.pdf')
